@@ -1,0 +1,105 @@
+@import url('reset.css');
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+._container {
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+._title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 18px;
+}
+._description {
+    line-height: 21px;
+    font-size: 18px;
+}
+/* ------------------- HEADER -------------------- */
+.header__menu {
+    padding: 33px 0;
+    border-bottom: 1px solid black;
+}
+.header__menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list__item a{
+    color: #828282;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    transition: color .8s linear;
+}
+.menu-list__item a:hover {
+    color: #070707
+}
+
+/* ------------------- PAGE -------------------- */
+.page {
+    flex: 1 1 auto;
+}
+.page > * {
+    text-align: center;
+}
+.page > *:not(:first-child) {
+    padding: 100px 0;
+}
+.page > *:nth-child(even) {
+    background-color: #f6f6f6;
+}
+/* ------------------- HOME -------------------- */
+.home__container > * {
+    padding-top: 30px;
+}
+.home__text {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home__text_name {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 55px;
+    flex: 1;
+    text-align: left;
+}
+.home__text_prof {
+    font-size: 18px;
+    flex: 3;
+    line-height: 21px;
+    text-align: center;
+}
+.home__text_languages {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 16px;
+    flex: 1;
+}
+.home__img {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+/* ------------------- ABOUT ME -------------------- */
+
+/* ------------------- SKILLS -------------------- */
+
+/* ------------------- PORTFOLIO -------------------- */
+
+/* ------------------- CONTACTS -------------------- */
+.contacts__social-list {
+    display: flex;
+    justify-content: center;
+    gap: 130px
+}
+
