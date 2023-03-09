@@ -191,7 +191,7 @@
 .contacts__social-list {
     display: flex;
     justify-content: center;
-    gap: 130px
+    gap: 130px;
 }
 .contacts__text {
     margin-bottom: 40px;
