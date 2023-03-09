@@ -24,7 +24,7 @@
 }
 /* ------------------- HEADER -------------------- */
 .header__menu {
-    padding: 33px 0;
+    padding: 25px 0 25px;
     border-bottom: 1px solid black;
 }
 .header__menu-list {
@@ -36,10 +36,11 @@
     font-size: 18px;
     line-height: 21px;
     font-weight: 700;
-    transition: color .8s linear;
+    transition: all .2s linear;
 }
 .menu-list__item a:hover {
-    color: #070707
+    color: #070707;
+    border-bottom: 2px solid #070707;
 }
 
 /* ------------------- PAGE -------------------- */
@@ -50,21 +51,24 @@
     text-align: center;
 }
 .page > *:not(:first-child) {
-    padding: 100px 0;
+    padding: 115px 0;
 }
 .page > *:nth-child(even) {
     background-color: #f6f6f6;
 }
 /* ------------------- HOME -------------------- */
 .home__container > * {
-    padding-top: 30px;
+    margin-top: 30px;
+}
+.hone {
+    padding-bottom: 0px;
 }
 .home__text {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
-
+    margin-top: 15px;
 }
 .home__text_name {
     font-weight: 700;
@@ -86,20 +90,114 @@
     flex: 1;
 }
 .home__img {
-    width: 100%;
-    padding-bottom: 100px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    rotate: -4deg;
+    width: 95%;
+    border-radius: 30px;
 }
 
 /* ------------------- ABOUT ME -------------------- */
+.page__about-me {
+}
+.about-me {
+}
+.about-me__container {
+}
+._container {
+}
+.about-me__title {
+
+}
+._title {
+}
+.about-me__text {
+}
+._description {
+}
 
 /* ------------------- SKILLS -------------------- */
+.page__skills {
+}
+.skills {
+}
+.skills__container {
+}
+.skills__title {
+}
+.skills__text {
+    margin-bottom: 50px;
+}
+.skills__list {
+
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+.skills__list__item {
+    width: 60px;
+    height: 60px;
+    align-items:stretch;
+}
+#js {
+    margin-top: -6px;
+    width: 60px;
+    height: 70px;
+}
 
 /* ------------------- PORTFOLIO -------------------- */
+.page__portfolio {
+}
+.portfolio {
+}
+.portfolio__container {
+}
+.portfolio__title {
+}
+.portfolio__list {
+}
+.portfolio__list-item {
+}
+.item {
+    margin-top: 60px;
+    text-align: left;
+    transition: box-shadow .7s;
+}
+.item:hover {
+    box-shadow: 7px 7px 7px 2px rgb(196, 196, 196);
+}
+.item__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.item__link {
+}
+.item__img {
+    width: 100%;
+    
+}
 
 /* ------------------- CONTACTS -------------------- */
+
+.footer {
+    text-align: center;
+    padding: 60px 0;
+}
+
 .contacts__social-list {
     display: flex;
     justify-content: center;
     gap: 130px
 }
+.contacts__text {
+    margin-bottom: 40px;
+}
+.social-item__img {
+    width: 50px;
+}
+
 

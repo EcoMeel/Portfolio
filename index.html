@@ -16,11 +16,11 @@
             <div class="header__container _container">
                 <nav class="header__menu">
                     <ul class="header__menu-list">
-                        <li class="menu-list__item"><a href="">Home</a></li>
-                        <li class="menu-list__item"><a href="">About me</a></li>
-                        <li class="menu-list__item"><a href="">Skills</a></li>
-                        <li class="menu-list__item"><a href="">Portfolio</a></li>
-                        <li class="menu-list__item"><a href="">Contacts</a></li>
+                        <li class="menu-list__item"><a href="#">Home</a></li>
+                        <li class="menu-list__item"><a href="#about">About me</a></li>
+                        <li class="menu-list__item"><a href="#skills">Skills</a></li>
+                        <li class="menu-list__item"><a href="#portfolio">Portfolio</a></li>
+                        <li class="menu-list__item"><a href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
@@ -33,43 +33,82 @@
                         <p class="home__text_prof">Fronted Developer<br>23 years old<br>Saint-Petersburg</p>
                         <p class="home__text_languages">RU | ENG</p>
                     </div>
-                    <img class="home__img" src="img/home.jpg" alt="">
+                    <img class="home__img" src="img/three.JPG" alt="">
                 </div>
             </section>
-            <section class="page__about-me about-me">
+            <section class="page__about-me about-me" id="about">
                 <div class="about-me__container _container">
                     <h2 class="about-me__title _title">About me</h2>
                     <p class="about-me__text _description">Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.<br><br>I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.<br><br>Ready to implement excellent projects<br>with wonderful people.</p>
                 </div>
             </section>
-            <section class="page__skills skills">
+            <section class="page__skills skills" id="skills">
                 <div class="skills__container _container">
                     <h2 class="skills__title _title">Skills</h2>
                     <p class="skills__text _description">I work with these technologies</p>
                     <div class="skills__list">
-                        <img src="" alt="1">
-                        <img src="" alt="2">
-                        <img src="" alt="3">
+                        <img class="skills__list__item" src="img/skills/html.png" alt="html icon" title="html">
+                        <img class="skills__list__item" src="img/skills/css.png" alt="css icon" title="css">
+                        <img class="skills__list__item" id="js" src="img/skills/js.png" alt="js icon" title="javascript">
+                        <img class="skills__list__item" src="img/skills/sass.png" alt="sass icon" title="sass">
+                        <img class="skills__list__item" src="img/skills/git.png" alt="git icon" title="git">
+                        <img class="skills__list__item" src="img/skills/figma.png" alt="figma icon" title="figma">
                     </div>
                 </div>
             </section>
-            <section class="page__portfolio portfolio">
+            <section class="page__portfolio portfolio" id="portfolio">
                 <div class="portfolio__container _container">
                     <h2 class="portfolio__title _title">Portfolio</h2>
-                </div>
-            </section>
-            <section class="page__contacts contacts">
-                <div class="contacts__container _container">
-                    <h2 class="contacts__title _title">Contacts</h2>
-                    <p class="contacts__text _description">Want to know more or just chat?<br>You are welcome!</p>
-                    <div class="contacts__social-list">
-                        <div class="contacts__social-list__item"><a href=""><img src="" alt="vk" class="vk"></a></div>
-                        <div class="contacts__social-list__item"><a href=""><img src="" alt="inst" class="inst"></a></div>
-                        <div class="contacts__social-list__item"><a href=""><img src="" alt="git" class="git"></a></div>
-                    </div>
+                    <ul class="portfolio__list">
+                        <li>
+                            <article class="portfolio__list-item item">
+                                <h3 class="item__title">Modern interiors - Metrica</h3>
+                                <a href="https://ecomeel.github.io/metrica/" target="_blank" class="item__link">
+                                    <img class="item__img" src="img/portfolio/metrica.png" alt="">
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="portfolio__list-item item">
+                                <h3 class="item__title">Nothing Ear Store</h3>
+                                <a href="https://ecomeel.github.io/nothing-store/" target="_blank" class="item__link">
+                                    <img class="item__img" src="img/portfolio/nothing.png" alt="">
+                                </a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="portfolio__list-item item">
+                                <h3 class="item__title">My Portfolio</h3>
+                                <a href="https://ecomeel.github.io/portfolio/" target="_blank" class="item__link">
+                                    <img class="item__img" src="img/portfolio/portfolio.png" alt="">
+                                </a>
+                            </article>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>
+        <footer class="footer">
+            <div class="contacts__container _container">
+                <!-- <h2 class="contacts__title _title">Contacts</h2> -->
+                <p class="contacts__text _description">Want to know more or just chat?<br>You are welcome!</p>
+                <div class="contacts__social-list">
+                    <div class="contacts__social-list__item social-item">
+                        <a href=""><img class="social-item__img" src="img/social/vk.png" alt="vk" class="vk"></a>
+                    </div>
+                    <div class="contacts__social-list__item">
+                        <a href=""><img class="social-item__img" src="img/social/inst.png" alt="inst" class="inst"></a>
+                    </div>
+                    <div class="contacts__social-list__item">
+                        <a href="https://github.com/ecomeel"><img class="social-item__img" src="img/social/git.png" alt="git" class="git"></a>
+                    </div>
+                    <div class="contacts__social-list__item">
+                        <a href=""><img class="social-item__img" src="img/social/tg.png" alt="git" class="git"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
+
